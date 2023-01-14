@@ -32,6 +32,14 @@ img {
     max-width: 100%;
 }
 
+.logo a{
+    font-size: 3rem !important;
+}
+
+.logo a:hover{
+    border-bottom: none !important;
+}
+
 .btn-1 {
     color: var(--secondary-color);
     background-color: var(--white);
@@ -223,7 +231,7 @@ img {
 
 .container p {
     font-size: 1.3rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
 }
 
 
@@ -438,5 +446,302 @@ footer .icons i {
         margin-bottom: 1rem;
         padding: 0.4rem;
         font-size: 2rem;
+    }
+}
+
+/* text */
+.text-show-case-o {
+    color: #fff;
+    font-size: 3rem;
+    padding-top: 10rem;
+}
+
+.text-show-case-o .text-case-o h2 {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    .text-show-case-o {
+        color: #fff;
+        font-size: 2rem;
+        padding-top: 5rem;
+    }
+
+    .text-show-case-o .text-case-o h2 {
+        display: block;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+/* about */
+#ul-class {
+    list-style: circle;
+}
+
+#about-banner {
+    width: 100%;
+    height: 60vh;
+    background-image: url("images/photo-1551590192-8070a16d9f67.avif");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.about-us-container {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.about-us {
+    display: flex;
+}
+
+.about-card {
+    width: 100%;
+    background: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+    padding: 1rem;
+    margin: 1.5rem;
+}
+
+.about-card ul p {
+    padding-bottom: 0.3rem;
+}
+
+.card-title {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.image-container {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.image-container-1 {
+    background-image: url("images/photo-1454165804606-c3d57bc86b40.avif");
+}
+
+.image-container-2 {
+    background-image: url("images/photo-1434626881859-194d67b2b86f.avif");
+
+}
+
+.image-container-3 {
+    background-image: url("images/photo-1551024709-8f23befc6f87.avif");
+}
+
+.image-container-4 {
+    background-image: url("images/photo-1504674900247-0877df9cc836.avif");
+}
+
+#tx {
+    position: absolute;
+    margin-left: 100px;
+    background-color: white;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #161E33;
+}
+
+#tx1 {
+    position: absolute;
+    margin-left: 100px;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #4d0000;
+}
+
+#tx2 {
+    position: absolute;
+    margin-left: 100px;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: black;
+}
+
+.slideshow-container {
+    max-width: 50%;
+    position: relative;
+    margin: auto;
+    padding-bottom: 8rem;
+}
+
+.mySlides {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mySlides img {
+    margin: auto;
+    border-radius: 1rem;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(144, 144, 144, 0.8);
+}
+
+@media (max-width: 800px) {
+    .about-us {
+        /* display: block; */
+        flex-direction: column;
+    }
+
+    .about-card {
+        padding: 1rem;
+        margin: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    .prev {
+        top: 30%;
+        left: -4rem;
+    }
+
+    .next {
+        top: 30%;
+        left: 12rem;
+    }
+}
+
+/* contact */
+#contact-banner {
+    width: 100%;
+    height: 60vh;
+    background-image: url("images/contactus.avif");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.contact-us {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    display: flex;
+    gap: 10rem;
+}
+
+.form-group label {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+}
+
+input,
+textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 13px;
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid var(--btn-border);
+    outline-width: 0;
+    transition: All 0.5s ease-in;
+    -webkit-transition: All 0.5s ease-in;
+    -moz-transition: All 0.5s ease-in;
+    -o-transition: All 0.5s ease-in;
+}
+
+.contact-btn {
+    width: 100%;
+    background-color: transparent;
+}
+
+.phone-number h3 {
+    font-size: 1.5rem;
+}
+
+.phone-number li,
+.phone-number address {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+}
+
+@media (max-width: 800px) {
+    .contact-us {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+}
+
+/* reserve */
+#reserve-banner {
+    width: 100%;
+    height: 60vh;
+    background-image: url("https://images.unsplash.com/photo-1457904297262-2dcf97b883ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1317&q=80");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.reserve-table {
+    width: 70%;
+    margin: 5rem auto;
+    background: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+    padding: 3rem 2rem;
+}
+
+.order-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 800px) {
+    .reserve-table {
+         width: 90%;
+        margin: 1rem auto;
+        padding:1rem;
     }
 }
